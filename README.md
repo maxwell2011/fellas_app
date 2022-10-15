@@ -4,13 +4,15 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application, just using the fellas as a quick example
 
-A few resources to get you started if this is your first Flutter project:
+Here's the Home page, and all other pages look similar to this.
+![fellas_app_screenshot_1](https://user-images.githubusercontent.com/42814450/195960049-a1797a62-576d-4e4d-a327-cdf8e617e755.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+They are all just skeletons waiting for you to build the DTO's to talk to pocketbase
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Here's the Navigation Drawer, and routing is in place. Again, just waiting on your screeens to drop into the prebuilt pages!
+![fellas_app_screenshot_2](https://user-images.githubusercontent.com/42814450/195960142-167ba887-bca6-4217-ac39-dcd16d416dcd.png)
+
+Edit the theme document under lib/utils/config/theming.dart to adjust the color schemes
