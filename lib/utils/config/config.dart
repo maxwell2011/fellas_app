@@ -1,4 +1,4 @@
 class Config {
   static const appTitle = 'Fellas';
-  static const baseUrl = '127.0.0.1:8090';
+  static const baseUrl = 'http://127.0.0.1:8090';
 }

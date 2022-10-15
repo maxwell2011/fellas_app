@@ -8,7 +8,6 @@ import 'package:fellas_app/utils/config/page_titles.dart';
 import 'package:fellas_app/utils/config/routes.dart';
 import 'package:fellas_app/utils/templates/screen_template.dart';
 import 'package:fellas_app/utils/templates/content_template.dart';
-import 'package:fellas_app/utils/templates/dialog_template.dart';
 import 'package:fellas_app/utils/helpers/navigation.dart';
 import 'package:fellas_app/utils/widgets/home_button.dart';
 

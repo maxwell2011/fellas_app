@@ -20,9 +20,7 @@ class FellasDrawer extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.max,
               children: [
-                Image.asset(
-                  'himars_o_Clock.jpg',
-                ),
+                ThemeHelper.drawerImage(),
                 ListTile(
                   leading: Icon(Icons.home),
                   title: Text('Home'),
@@ -33,21 +31,25 @@ class FellasDrawer extends StatelessWidget {
                   title: Text('News'),
                   onTap: () => {Navigator.pushNamed(context, Routes.news)},
                 ),
-                ListTile(
+                // Commented out since it's redundant.
+                // We have the FloatingActionButton to do this on every page
+                /*ListTile(
                   leading: Icon(Icons.star),
                   title: Text('Upload'),
                   onTap: () => {Navigator.pushNamed(context, Routes.upload)},
-                ),
+                ),*/
                 ListTile(
                   leading: Icon(Icons.edit),
                   title: Text('Editor'),
                   onTap: () => {Navigator.pushNamed(context, Routes.editor)},
                 ),
-                ListTile(
+                // Commented out since it's redundant.
+                // We have the profile button to do this on every page
+                /*ListTile(
                   leading: Icon(Icons.person),
                   title: Text('Profile'),
                   onTap: () => {Navigator.pushNamed(context, Routes.profile)},
-                ),
+                ),*/
                 ListTile(
                   leading: Icon(Icons.settings),
                   title: Text('Settings'),

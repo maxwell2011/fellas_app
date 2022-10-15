@@ -25,11 +25,34 @@ class ThemeHelper {
     );
   }
 
+  static ElevatedButtonThemeData getElevatedButtonThemeData() {
+    return ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.lightGreen,
+        foregroundColor: Colors.white,
+        shadowColor: Colors.green,
+        elevation: 5,
+      ),
+    );
+  }
+
   static Size getAppBarSize() {
     return Size.fromHeight(50);
   }
 
   static double getDrawerSize() {
     return 200;
+  }
+
+  static Container headerImage() {
+    return Container(
+      width: 200,
+      height: 200,
+      child: Image.asset('himars_o_Clock.jpg'),
+    );
+  }
+
+  static Image drawerImage() {
+    return Image.asset('himars_o_Clock.jpg');
   }
 }
