@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fellas_app/utils/config/page_titles.dart';
-import 'package:fellas_app/utils/config/routes.dart';
 import 'package:fellas_app/utils/templates/screen_template.dart';
 import 'package:fellas_app/utils/templates/content_template.dart';
-import 'package:fellas_app/utils/helpers/navigation.dart';
 import 'package:fellas_app/utils/widgets/new_upload_button.dart';
 
 class EditorPage extends StatelessWidget {

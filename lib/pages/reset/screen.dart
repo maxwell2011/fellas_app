@@ -1,10 +1,8 @@
+import 'package:fellas_app/utils/widgets/register_button.dart';
 import 'package:flutter/material.dart';
-import 'package:fellas_app/utils/config/page_titles.dart';
-import 'package:fellas_app/utils/config/routes.dart';
 import 'package:fellas_app/utils/templates/screen_template.dart';
 import 'package:fellas_app/utils/templates/content_template.dart';
-import 'package:fellas_app/utils/helpers/navigation.dart';
-import 'package:fellas_app/utils/widgets/new_upload_button.dart';
+import 'form.dart';
 
 class ResetPage extends StatelessWidget {
   const ResetPage({super.key, required this.title});
@@ -15,8 +13,8 @@ class ResetPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenTemplate(
       title,
-      UploadButton(),
-      ContentTemplate(Text("The Reset Page")),
+      RegisterButton(),
+      ContentTemplate(ResetScreen()),
     );
   }
 }
